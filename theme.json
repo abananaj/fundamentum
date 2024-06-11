@@ -1,4 +1,6 @@
 {
+  "version": 3,
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
   "settings": {
     "appearanceTools": true,
     "useRootPaddingAwareAlignments": true,
@@ -63,61 +65,63 @@
         {
           "name": "Base/Complementary",
           "slug": "base-comp-duo",
-          "colors": ["#C4381A", "#D99A4E"]
+          "colors": ["#FF9A26", "#D44811"]
         },
         {
           "name": "Base/Contrast",
           "slug": " base-contrast-duo",
-          "colors": ["#C4381A", "#27524C"]
+          "colors": ["#FF9A26", "#001137"]
         },
         {
           "name": "Base",
           "slug": "base-duo",
-          "colors": ["#C4381A", "#E1EFF2"]
+          "colors": ["#FF9A26", "#FFF8D6"]
         },
         {
           "name": "Contrast",
           "slug": "contrast-duo",
-          "colors": ["#27524C", "#E1EFF2"]
+          "colors": ["#001137", "#FFF8D6"]
         },
         {
           "name": "Accent",
           "slug": "accent-duo",
-          "colors": ["#97833F", "#E1EFF2"]
+          "colors": ["#5CC9F7", "#FFF8D6"]
         }
       ],
-      "gradients": [
-        {
-          "name": "Heat",
-          "slug": "heat",
-          "gradient": "linear-gradient(135deg, #F32758, #FFC581)"
-        }
-      ],
+      "gradients": [],
       "palette": [
-        { "name": "Base", "slug": "base", "color": "#C4381A" },
-        { "name": "Complementary", "slug": "comp", "color": "#D99A4E" },
-        { "name": "Contrast", "slug": "contrast", "color": "#27524C" },
-        { "name": "Accent", "slug": "accent", "color": "#97833F" },
-        { "name": "Highlight", "slug": "highlight", "color": "#72A2AB" },
-        { "name": "Background", "slug": "bg", "color": "#E1EFF2" },
-        { "name": "Text", "slug": "txt", "color": "#020A0A" },
-        { "name": "Background Alt", "slug": "bgalt", "color": "#27524C" },
-        { "name": "Text", "slug": "txtalt", "color": "#E1EFF2" },
-        { "name": "Light", "slug": "light", "color": "#E1EFF2" },
-        { "name": "Dark", "slug": "dark", "color": "#27524C" },
-        { "name": "thunderbird", "slug": "thunderbird", "color": "#C4381A" },
-        { "name": "di-serria", "slug": "di-serria", "color": "#D99A4E" },
-        { "name": "plantation", "slug": "plantation", "color": "#27524C" },
-        { "name": "gumbo", "slug": "gumbo", "color": "#72A2AB" },
-        { "name": "sycamore", "slug": "sycamore", "color": "#97833F" }
+        { "name": "Base", "slug": "base", "color": "#FF9A26" },
+        { "name": "Complementary", "slug": "comp", "color": "#D44811" },
+        { "name": "Contrast", "slug": "contrast", "color": "#001137" },
+        { "name": "Accent", "slug": "accent", "color": "#5CC9F7" },
+        { "name": "Highlight", "slug": "highlight", "color": "#FFC619" },
+        { "name": "Background", "slug": "bg", "color": "#FFF8D6" },
+        { "name": "Text", "slug": "txt", "color": "#000000" },
+        { "name": "Background Alt", "slug": "bgalt", "color": "#001137" },
+        { "name": "Text", "slug": "txtalt", "color": "#FFF8D6" },
+        { "name": "Light", "slug": "light", "color": "#FFF8D6" },
+        { "name": "Dark", "slug": "dark", "color": "#B5CBE6" },
+        { "name": "sunshade", "slug": "sunshade", "color": "#FF9A26" },
+        { "name": "tia-maria", "slug": "tia-maria", "color": "#D44811" },
+        { "name": "milk-punch", "slug": "milk-punch", "color": "#FFF8D6" },
+        {
+          "name": "lightning-yellow",
+          "slug": "lightning-yellow",
+          "color": "#FFC619"
+        },
+        { "name": "spindle", "slug": "spindle", "color": "#B5CBE6" },
+        { "name": "midnight", "slug": "midnight", "color": "#001137" },
+        { "name": "hawaiian-tan", "slug": "hawaiian-tan", "color": "#965A15" },
+        { "name": "malibu", "slug": "malibu", "color": "#5CC9F7" },
+        { "name": "prussian-blue", "slug": "prussian-blue", "color": "#003952" }
       ]
     },
     "custom": {
       "border": {
-        "color": "#000000",
-        "width": "1px",
         "style": "solid",
-        "radius": "5px"
+        "width": "2px",
+        "color": "#B5CBE6",
+        "radius": "solid"
       },
       "btn": {
         "bg": "#BB6869",
@@ -184,44 +188,64 @@
       "writingMode": true,
       "fontFamilies": [
         {
-          "name": "Antipol",
-          "slug": "antipol-variable",
-          "fontFamily": "'antipol-variable',sans-serif;"
+          "name": "acierbatoutline",
+          "slug": "acier-bat-outline",
+          "fontFamily": "'acier-bat-outline',sans-serif;"
+        },
+        {
+          "name": "acierbatstrokes",
+          "slug": "acier-bat-strokes",
+          "fontFamily": "'acier-bat-strokes',sans-serif;"
+        },
+        {
+          "name": "acierbattextnoir",
+          "slug": "acier-bat-text-noir",
+          "fontFamily": "'acier-bat-text-noir',sans-serif;"
+        },
+        {
+          "name": "acierbattextsolid",
+          "slug": "acier-bat-text-solid",
+          "fontFamily": "'acier-bat-text-solid',sans-serif;"
+        },
+        {
+          "name": "interstate",
+          "slug": "interstate",
+          "fontFamily": "'interstate',sans-serif;"
         },
         {
           "name": "Headings",
           "slug": "headings",
-          "fontFamily": "'antipol-variable',sans-serif;"
+          "fontFamily": "'acier-bat-text-noir',sans-serif;"
         },
         {
           "name": "Headings Alt",
           "slug": "headingsalt",
-          "fontFamily": "'antipol-variable', sans-serif; "
+          "fontFamily": "'acier-bat-text-solid', sans-serif; "
         },
         {
           "name": "Body",
           "slug": "body",
-          "fontFamily": "'antipol-variable', sans-serif;"
+          "fontFamily": "'interstate', sans-serif;"
         },
         {
           "name": "Display",
           "slug": "display",
-          "fontFamily": "'antipol-variable', sans-serif;"
+          "fontFamily": "'interstate', sans-serif;"
         },
         {
           "name": "Button",
           "slug": "btn",
-          "fontFamily": "'antipol-variable', sans-serif;"
+          "fontFamily": "'interstate-condensed', sans-serif;"
         },
         {
           "name": "Nav",
           "slug": "nav",
-          "fontFamily": "'antipol-variable', sans-serif;"
+          "fontFamily": "'acier-bat-text-solid', sans-serif;"
         },
         {
           "name": "Caption",
           "slug": "caption",
-          "fontFamily": "'antipol-variable', sans-serif;"
+          "fontFamily": "'interstate-compressed', sans-serif;"
         }
       ],
       "fontSizes": [
@@ -306,7 +330,6 @@
   "styles": {
     "border": {
       "color": "var(--wp--custom--border--color)",
-
       "style": "var(--wp--custom--border--style)",
       "width": "var(--wp--custom--border--width)",
       "radius": "var(--wp--custom--border--radius)"
@@ -343,19 +366,14 @@
       }
     },
     "blocks": {
-      "core/buttons": {
-        "core/button": {}
-      },
+      "core/buttons": {},
+      "core/button": {},
       "core/content": {},
-      "core/form": {
-        "core/paragraph": {},
-        "core/heading": {},
-        "core/form-input": {},
-        "core/form-submit-button": {},
-        "core/form-submission-notification": {},
-        "core/group": {},
-        "core/columns": {}
-      },
+      "core/form": {},
+      "core/paragraph": {},
+      "core/heading": {},
+      "core/group": {},
+      "core/columns": {},
       "core/form-submission-notification": {},
       "core/form-submit-button": {},
       "core/form-input": {},
@@ -365,16 +383,16 @@
 
       "core/post-excerpt": {},
       "core/list": {
-        "core/list-item": {
-          "spacing": {
-            "margin": {},
-            "padding": {}
-          },
-          "typography": {
-            "fontSize": {},
-            "lineHeight": {}
-          }
+        "spacing": {
+          "margin": {},
+          "padding": {}
         },
+        "typography": {
+          "fontSize": {},
+          "lineHeight": {}
+        }
+      },
+      "core/list-item": {
         "spacing": {
           "margin": {},
           "padding": {}
@@ -388,9 +406,8 @@
       "core/navigation": {},
       "core/home-link": {},
       "core/navigation-submenu": {},
-      "core/page-list": {
-        "core/page-list-item": {}
-      },
+      "core/page-list": {},
+      "core/page-list-item": {},
       "core/pullquote": {},
       "core/quote": {},
       "core/rss": {},
@@ -399,9 +416,8 @@
       "core/site-logo": {},
       "core/site-tagline": {},
       "core/site-title": {},
-      "core/social-links": {
-        "core/social-link": {}
-      }
+      "core/social-links": {},
+      "core/social-link": {}
     },
     "elements": {
       "button": {
@@ -512,121 +528,21 @@
   },
   "customTemplates": [
     {
-      "name": "page-no-title",
-      "title": "Page (Full Width, No Title)",
-      "postTypes": ["page"]
+      "title": "popup",
+      "name": "single-popup",
+      "postTypes": ["popup", "post"]
     },
     {
-      "name": "page-with-sidebar",
-      "title": "Page (With Sidebar)",
-      "postTypes": ["post", "page"]
+      "title": "canvas",
+      "name": "single-canvas",
+      "postTypes": ["canvas", "post"]
     },
     {
-      "name": "canvas",
-      "title": "Canvas",
-      "postTypes": ["page", "post"]
+      "title": "testimonial",
+      "name": "single-testimonial",
+      "postTypes": ["testimonial", "post"]
     }
   ],
-  "patterns": [
-    "author-box",
-    "blog-post-columns-single",
-    "blog-post-columns",
-    "card-big-text-call-to-action",
-    "card-blog-post",
-    "card-call-to-action-with-buttons",
-    "card-call-to-action",
-    "card-contact",
-    "card-details",
-    "card-image-and-text",
-    "card-lead-magnet",
-    "card-post-list",
-    "card-pricing-table-dark",
-    "card-pricing-table",
-    "card-social-profile",
-    "card-testimonial",
-    "card-text-and-call-to-action",
-    "card-text-and-details",
-    "card-text-box-with-arrow-accent",
-    "card-text-box-with-arrow-dark",
-    "card-text-box-with-arrow",
-    "carousel",
-    "contact-details",
-    "cover",
-    "faq",
-    "feature-boxes-with-button",
-    "feature-boxes-with-icon-dark",
-    "feature-boxes-with-icon",
-    "features-with-emojis",
-    "features",
-    "footer-centered-light",
-    "footer-centered",
-    "footer-light",
-    "footer-minimal-light",
-    "footer-minimal",
-    "footer",
-    "footers",
-    "grids",
-    "header-dark-with-banner",
-    "header-dark-with-buttons",
-    "header-dark",
-    "header-light-with-banner",
-    "header-light-with-buttons",
-    "header-light",
-    "headers",
-    "hero-call-to-action-buttons",
-    "hero-dark",
-    "hero-light",
-    "heroes",
-    "image-and-numbered-features",
-    "job-openings",
-    "jumbotron",
-    "jumbotrons",
-    "numbers-stacked",
-    "numbers",
-    "offcanvas-navbar",
-    "page-about",
-    "page-blog",
-    "page-download",
-    "page-features",
-    "page-home",
-    "page-pricing",
-    "page-profile",
-    "post-loop-grid-custom",
-    "post-loop-grid-default",
-    "post-loop-list",
-    "pricing-table-3-column",
-    "pricing-table-with-testimonials",
-    "pricing-table",
-    "pricing",
-    "sidebars",
-    "sign-in",
-    "single-testimonial",
-    "sticky-footer-navbar",
-    "team-members",
-    "testimonial-highlight",
-    "testimonials-and-logos",
-    "testimonials-with-big-text",
-    "testimonials-with-social-links",
-    "text-and-image-columns-with-icons",
-    "text-and-image-columns-with-testimonial",
-    "text-call-to-action-buttons",
-    "text-call-to-action"
-  ],
-  "templateParts": [
-    {
-      "name": "header",
-      "title": "Header",
-      "area": "header"
-    },
-    {
-      "name": "footer",
-      "title": "Footer",
-      "area": "footer"
-    },
-    {
-      "name": "sidebar",
-      "title": "Sidebar",
-      "area": "sidebar"
-    }
-  ]
+  "patterns": ["header", "footer"],
+  "templateParts": [{ "title": "Nav", "name": "nav", "area": "general" }]
 }
