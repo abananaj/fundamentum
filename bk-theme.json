@@ -19,7 +19,7 @@
     "layout": {
       "allowCustomContentAndWideSize": true,
       "allowEditing": true,
-      "contentSize": "1200px",
+      "contentSize": "1140px",
       "wideSize": "100%"
     },
     "lightbox": {
