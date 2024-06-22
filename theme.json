@@ -64,9 +64,9 @@
   "duotone": [ 
   { "name" : "Base/Complementary", "slug" : "base-comp-duo", "colors" : [ "#15001F", "#290957" ] }, 
   { "name" : "Base/Contrast", "slug" : " base-contrast-duo", "colors" : [ "#15001F", "#870014" ] },
-  { "name" : "Base", "slug" : "base-duo", "colors" : [ "#15001F", "##F7F7CD" ] },
-  { "name" : "Contrast",  "slug" : "contrast-duo", "colors" : [ "#870014", "##F7F7CD" ] },
-  { "name" : "Accent", "slug" : "accent-duo", "colors" : [ "#030F4A", "##F7F7CD" ] } 
+  { "name" : "Base", "slug" : "base-duo", "colors" : [ "#15001F", "#F7F7CD" ] },
+  { "name" : "Contrast",  "slug" : "contrast-duo", "colors" : [ "#870014", "#F7F7CD" ] },
+  { "name" : "Accent", "slug" : "accent-duo", "colors" : [ "#030F4A", "#F7F7CD" ] } 
   ],
               "gradients": [],
               "palette": [ 
@@ -76,11 +76,11 @@
   { "name" : "Accent", "slug" : "accent", "color" : "#030F4A" },
   { "name" : "Highlight", "slug" : "highlight",  "color" : "#DED47A" }, 
   { "name" : "Background", "slug" : "bg", "color" : "#15001F" },
-  { "name" : "Text", "slug" : "txt", "color" : "##FCFAFF" },
-  { "name" : "Background Alt", "slug" : "bgalt", "color" : "##FFFEE3" },
+  { "name" : "Text", "slug" : "txt", "color" : "#FCFAFF" },
+  { "name" : "Background Alt", "slug" : "bgalt", "color" : "#FFFEE3" },
   { "name" : "Text", "slug" : "txtalt", "color" : "#15001F" },
-  { "name" : "Light", "slug" : "light", "color" : "##F7F7CD" },
-  { "name" : "Dark", "slug" : "dark", "color" : "#15001F" }, { "name" : "smoky", "slug" : "smoky", "color" : "#655673" },{ "name" : "baltic-sea", "slug" : "baltic-sea", "color" : "#312B36" },{ "name" : "wheat", "slug" : "wheat", "color" : "#F2E6AA" },{ "name" : "laser", "slug" : "laser", "color" : "#C7BA77" },{ "name" : "kilamanjaro", "slug" : "kilamanjaro", "color" : "#120501" },{ "name" : "tulip-tree", "slug" : "tulip-tree", "color" : "#F0B841" },{ "name" : "alabaster", "slug" : "alabaster", "color" : "#FAFAFA" },{ "name" : "zucchini", "slug" : "zucchini", "color" : "#075738" },{ "name" : "pink", "slug" : "pink", "color" : "#FFC4CB" },{ "name" : "logan", "slug" : "logan", "color" : "#B59DC9" },{ "name" : "wheatfield", "slug" : "wheatfield", "color" : "#F2EDD0" },{ "name" : "copper-rose", "slug" : "copper-rose", "color" : "#9E6269" },{ "name" : "cedar", "slug" : "cedar", "color" : "#3D1116" },{ "name" : "buddha-gold", "slug" : "buddha-gold", "color" : "#CCAA00" },{ "name" : "barley-white", "slug" : "barley-white", "color" : "#FFF6C9" },{ "name" : "crete", "slug" : "crete", "color" : "#7A6C26" },{ "name" : "flush-mahogany", "slug" : "flush-mahogany", "color" : "#C93849" },{ "name" : "valentino", "slug" : "valentino", "color" : "#270D40" },{ "name" : "crown-of thorns", "slug" : "crown-of-thorns", "color" : "#70212A" },{ "name" : "ronchi", "slug" : "ronchi", "color" : "#E6CB45" },{ "name" : "camouflage", "slug" : "camouflage", "color" : "#383110" },{ "name" : "voodoo", "slug" : "voodoo", "color" : "#473259" },{ "name" : "Citrine White", "slug" : "citrine-white", "color" : "##F7F7CD" },{ "name" : "Half and Half", "slug" : "half-and-half", "color" : "##FFFEE3" },{ "name" : "Magnolia", "slug" : "magnolia", "color" : "##FCFAFF" },{ "name" : "Chenin", "slug" : "chenin", "color" : "#DED47A" },{ "name" : "Red Devil", "slug" : "red-devil", "color" : "#870014" },{ "name" : "Violent Violet", "slug" : "violent-violet", "color" : "#290957" },{ "name" : "Gulf Blue", "slug" : "gulf-blue", "color" : "#030F4A" },{ "name" : "Black Russian", "slug" : "black-russian", "color" : "#15001F" }
+  { "name" : "Light", "slug" : "light", "color" : "#F7F7CD" },
+  { "name" : "Dark", "slug" : "dark", "color" : "#15001F" }, { "name" : "smoky", "slug" : "smoky", "color" : "#655673" },{ "name" : "baltic-sea", "slug" : "baltic-sea", "color" : "#312B36" },{ "name" : "wheat", "slug" : "wheat", "color" : "#F2E6AA" },{ "name" : "laser", "slug" : "laser", "color" : "#C7BA77" },{ "name" : "kilamanjaro", "slug" : "kilamanjaro", "color" : "#120501" },{ "name" : "tulip-tree", "slug" : "tulip-tree", "color" : "#F0B841" },{ "name" : "alabaster", "slug" : "alabaster", "color" : "#FAFAFA" },{ "name" : "zucchini", "slug" : "zucchini", "color" : "#075738" },{ "name" : "pink", "slug" : "pink", "color" : "#FFC4CB" },{ "name" : "logan", "slug" : "logan", "color" : "#B59DC9" },{ "name" : "wheatfield", "slug" : "wheatfield", "color" : "#F2EDD0" },{ "name" : "copper-rose", "slug" : "copper-rose", "color" : "#9E6269" },{ "name" : "cedar", "slug" : "cedar", "color" : "#3D1116" },{ "name" : "buddha-gold", "slug" : "buddha-gold", "color" : "#CCAA00" },{ "name" : "barley-white", "slug" : "barley-white", "color" : "#FFF6C9" },{ "name" : "crete", "slug" : "crete", "color" : "#7A6C26" },{ "name" : "flush-mahogany", "slug" : "flush-mahogany", "color" : "#C93849" },{ "name" : "valentino", "slug" : "valentino", "color" : "#270D40" },{ "name" : "crown-of thorns", "slug" : "crown-of-thorns", "color" : "#70212A" },{ "name" : "ronchi", "slug" : "ronchi", "color" : "#E6CB45" },{ "name" : "camouflage", "slug" : "camouflage", "color" : "#383110" },{ "name" : "voodoo", "slug" : "voodoo", "color" : "#473259" },{ "name" : "Citrine White", "slug" : "citrine-white", "color" : "#F7F7CD" },{ "name" : "Half and Half", "slug" : "half-and-half", "color" : "#FFFEE3" },{ "name" : "Magnolia", "slug" : "magnolia", "color" : "#FCFAFF" },{ "name" : "Chenin", "slug" : "chenin", "color" : "#DED47A" },{ "name" : "Red Devil", "slug" : "red-devil", "color" : "#870014" },{ "name" : "Violent Violet", "slug" : "violent-violet", "color" : "#290957" },{ "name" : "Gulf Blue", "slug" : "gulf-blue", "color" : "#030F4A" },{ "name" : "Black Russian", "slug" : "black-russian", "color" : "#15001F" }
   ]},
               "custom": {
               "border": { 
