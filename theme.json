@@ -2,12 +2,128 @@
   "version": 3,
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "settings": {
+<<<<<<< HEAD
       "appearanceTools": true,
       "useRootPaddingAwareAlignments": true,
       "background": {
         "backgroundImage": true,
         "backgroundSize": true
       },
+=======
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "background": {
+      "backgroundImage": true,
+      "backgroundSize": true
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "dimensions": {
+      "aspectRatio": true,
+      "minHeight": true
+    },
+    "layout": {
+      "allowCustomContentAndWideSize": true,
+      "allowEditing": true,
+      "contentSize": "1200px",
+      "wideSize": "100%"
+    },
+    "lightbox": {
+      "allowEditing": true,
+      "enabled": true
+    },
+    "position": {
+      "sticky": true
+    },
+    "shadow": {
+      "defaultPresets": true
+    },
+    "spacing": {
+      "blockGap": true,
+      "customSpacingSize": true,
+      "margin": true,
+      "padding": true,
+      "units": ["px", "em", "rem", "vh", "vw", "%"],
+      "spacingScale": {
+        "increment": 1.618,
+        "mediumStep": 1,
+        "operator": "*",
+        "steps": 7,
+        "unit": "rem"
+      }
+    },
+    "color": {
+      "background": true,
+      "button": true,
+      "caption": true,
+      "heading": true,
+      "link": true,
+      "text": true,
+      "custom": true,
+      "customDuotone": true,
+      "customGradient": true,
+      "defaultDuotone": true,
+      "defaultGradients": true,
+      "defaultPalette": false,
+      "duotone": [
+        {
+          "name": "Base/Complementary",
+          "slug": "base-comp-duo",
+          "colors": ["#C4381A", "#D99A4E"]
+        },
+        {
+          "name": "Base/Contrast",
+          "slug": " base-contrast-duo",
+          "colors": ["#C4381A", "#27524C"]
+        },
+        {
+          "name": "Base",
+          "slug": "base-duo",
+          "colors": ["#C4381A", "#E1EFF2"]
+        },
+        {
+          "name": "Contrast",
+          "slug": "contrast-duo",
+          "colors": ["#27524C", "#E1EFF2"]
+        },
+        {
+          "name": "Accent",
+          "slug": "accent-duo",
+          "colors": ["#97833F", "#E1EFF2"]
+        }
+      ],
+      "gradients": [
+        {
+          "name": "Heat",
+          "slug": "heat",
+          "gradient": "linear-gradient(135deg, #F32758, #FFC581)"
+        }
+      ],
+      "palette": [
+        { "name": "Base", "slug": "base", "color": "#C4381A" },
+        { "name": "Complementary", "slug": "comp", "color": "#D99A4E" },
+        { "name": "Contrast", "slug": "contrast", "color": "#27524C" },
+        { "name": "Accent", "slug": "accent", "color": "#97833F" },
+        { "name": "Highlight", "slug": "highlight", "color": "#72A2AB" },
+        { "name": "Background", "slug": "bg", "color": "#E1EFF2" },
+        { "name": "Text", "slug": "txt", "color": "#020A0A" },
+        { "name": "Background Alt", "slug": "bgalt", "color": "#27524C" },
+        { "name": "Text", "slug": "txtalt", "color": "#E1EFF2" },
+        { "name": "Light", "slug": "light", "color": "#E1EFF2" },
+        { "name": "Dark", "slug": "dark", "color": "#27524C" },
+        { "name": "thunderbird", "slug": "thunderbird", "color": "#C4381A" },
+        { "name": "di-serria", "slug": "di-serria", "color": "#D99A4E" },
+        { "name": "plantation", "slug": "plantation", "color": "#27524C" },
+        { "name": "gumbo", "slug": "gumbo", "color": "#72A2AB" },
+        { "name": "sycamore", "slug": "sycamore", "color": "#97833F" }
+      ]
+    },
+    "custom": {
+>>>>>>> a5c780cef3d580ec822721c10608265781bf218c
       "border": {
         "color": true,
         "radius": true,
