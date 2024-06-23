@@ -182,48 +182,18 @@
       "textDecoration": true,
       "textTransform": true,
       "writingMode": true,
-      "fontFamilies": [
-        {
-          "name": "Antipol",
-          "slug": "antipol-variable",
-          "fontFamily": "'antipol-variable',sans-serif;"
-        },
-        {
-          "name": "Headings",
-          "slug": "headings",
-          "fontFamily": "'antipol-variable',sans-serif;"
-        },
-        {
-          "name": "Headings Alt",
-          "slug": "headingsalt",
-          "fontFamily": "'antipol-variable', sans-serif; "
-        },
-        {
-          "name": "Body",
-          "slug": "body",
-          "fontFamily": "'antipol-variable', sans-serif;"
-        },
-        {
-          "name": "Display",
-          "slug": "display",
-          "fontFamily": "'antipol-variable', sans-serif;"
-        },
-        {
-          "name": "Button",
-          "slug": "btn",
-          "fontFamily": "'antipol-variable', sans-serif;"
-        },
-        {
-          "name": "Nav",
-          "slug": "nav",
-          "fontFamily": "'antipol-variable', sans-serif;"
-        },
-        {
-          "name": "Caption",
-          "slug": "caption",
-          "fontFamily": "'antipol-variable', sans-serif;"
-        }
-      ],
+"fontFamilies": [ 
+{ "name" : "mendl sans variable" , "slug" : "mendl-sans-variable" , "fontFamily" : " 'mendl-sans-variable', sans-serif; "},
+{ "name" : "mendl serif variable" , "slug" : "mendl-serif-variable" , "fontFamily" : " 'mendl-serif-variable', sans-serif; "},
+{ "name" : "roc grotesk variable" , "slug" : "roc-grotesk-variable" , "fontFamily" : " 'roc-grotesk-variable', sans-serif; "}
+{ "name":"Headings","slug":"headings","fontFamily":"'mendl-serif-variable',sans-serif;"},
+{ "name": "Headings Alt", "slug": "headingsalt", "fontFamily": "'mendl-sans-variable', sans-serif; " },
+{ "name": "Body", "slug": "body", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
+{ "name": "Display", "slug": "display", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
+{ "name": "Button", "slug": "btn",  "fontFamily": "'roc-grotesk-variable', sans-serif;" }, 
+{ "name": "Nav", "slug": "nav", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
+{ "name": "Caption", "slug": "caption", "fontFamily": "'roc-grotesk-variable', sans-serif;" }
+],
       "fontSizes": [
         {
           "slug": "h1",
