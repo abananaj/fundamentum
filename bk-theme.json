@@ -1,15 +1,5 @@
 {
-  "version": 3,
-  "$schema": "https://schemas.wp.org/trunk/theme.json",
   "settings": {
-<<<<<<< HEAD
-      "appearanceTools": true,
-      "useRootPaddingAwareAlignments": true,
-      "background": {
-        "backgroundImage": true,
-        "backgroundSize": true
-      },
-=======
     "appearanceTools": true,
     "useRootPaddingAwareAlignments": true,
     "background": {
@@ -29,7 +19,7 @@
     "layout": {
       "allowCustomContentAndWideSize": true,
       "allowEditing": true,
-      "contentSize": "1200px",
+      "contentSize": "1140px",
       "wideSize": "100%"
     },
     "lightbox": {
@@ -123,7 +113,6 @@
       ]
     },
     "custom": {
->>>>>>> a5c780cef3d580ec822721c10608265781bf218c
       "border": {
         "color": "#000000",
         "width": "1px",
@@ -193,18 +182,48 @@
       "textDecoration": true,
       "textTransform": true,
       "writingMode": true,
-"fontFamilies": [ 
-{ "name" : "mendl sans variable" , "slug" : "mendl-sans-variable" , "fontFamily" : " 'mendl-sans-variable', sans-serif; "},
-{ "name" : "mendl serif variable" , "slug" : "mendl-serif-variable" , "fontFamily" : " 'mendl-serif-variable', sans-serif; "},
-{ "name" : "roc grotesk variable" , "slug" : "roc-grotesk-variable" , "fontFamily" : " 'roc-grotesk-variable', sans-serif; "}
-{ "name":"Headings","slug":"headings","fontFamily":"'mendl-serif-variable',sans-serif;"},
-{ "name": "Headings Alt", "slug": "headingsalt", "fontFamily": "'mendl-sans-variable', sans-serif; " },
-{ "name": "Body", "slug": "body", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
-{ "name": "Display", "slug": "display", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
-{ "name": "Button", "slug": "btn",  "fontFamily": "'roc-grotesk-variable', sans-serif;" }, 
-{ "name": "Nav", "slug": "nav", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
-{ "name": "Caption", "slug": "caption", "fontFamily": "'roc-grotesk-variable', sans-serif;" }
-],
+      "fontFamilies": [
+        {
+          "name": "Antipol",
+          "slug": "antipol-variable",
+          "fontFamily": "'antipol-variable',sans-serif;"
+        },
+        {
+          "name": "Headings",
+          "slug": "headings",
+          "fontFamily": "'antipol-variable',sans-serif;"
+        },
+        {
+          "name": "Headings Alt",
+          "slug": "headingsalt",
+          "fontFamily": "'antipol-variable', sans-serif; "
+        },
+        {
+          "name": "Body",
+          "slug": "body",
+          "fontFamily": "'antipol-variable', sans-serif;"
+        },
+        {
+          "name": "Display",
+          "slug": "display",
+          "fontFamily": "'antipol-variable', sans-serif;"
+        },
+        {
+          "name": "Button",
+          "slug": "btn",
+          "fontFamily": "'antipol-variable', sans-serif;"
+        },
+        {
+          "name": "Nav",
+          "slug": "nav",
+          "fontFamily": "'antipol-variable', sans-serif;"
+        },
+        {
+          "name": "Caption",
+          "slug": "caption",
+          "fontFamily": "'antipol-variable', sans-serif;"
+        }
+      ],
       "fontSizes": [
         {
           "slug": "h1",
@@ -324,32 +343,28 @@
       }
     },
     "blocks": {
-        "core/buttons": {},
-        "core/button": {},
-        "core/content": {},
-        "core/form": {},
+      "core/buttons": {
+        "core/button": {}
+      },
+      "core/content": {},
+      "core/form": {
         "core/paragraph": {},
         "core/heading": {},
-        "core/group": {},
-        "core/columns": {},
-        "core/form-submission-notification": {},
-        "core/form-submit-button": {},
         "core/form-input": {},
-        "core/image": {},
-        "core/post-featured-image": {},
-        "core/gallery": {},
-  
-        "core/post-excerpt": {},
-        "core/list": {
-          "spacing": {
-            "margin": {},
-            "padding": {}
-          },
-          "typography": {
-            "fontSize": {},
-            "lineHeight": {}
-          }
-        },
+        "core/form-submit-button": {},
+        "core/form-submission-notification": {},
+        "core/group": {},
+        "core/columns": {}
+      },
+      "core/form-submission-notification": {},
+      "core/form-submit-button": {},
+      "core/form-input": {},
+      "core/image": {},
+      "core/post-featured-image": {},
+      "core/gallery": {},
+
+      "core/post-excerpt": {},
+      "core/list": {
         "core/list-item": {
           "spacing": {
             "margin": {},
@@ -360,21 +375,31 @@
             "lineHeight": {}
           }
         },
-        "core/post-title": {},
-        "core/navigation": {},
-        "core/home-link": {},
-        "core/navigation-submenu": {},
-        "core/page-list": {},
-        "core/page-list-item": {},
-        "core/pullquote": {},
-        "core/quote": {},
-        "core/rss": {},
-        "core/search": {},
-        "core/separator": {},
-        "core/site-logo": {},
-        "core/site-tagline": {},
-        "core/site-title": {},
-        "core/social-links": {},
+        "spacing": {
+          "margin": {},
+          "padding": {}
+        },
+        "typography": {
+          "fontSize": {},
+          "lineHeight": {}
+        }
+      },
+      "core/post-title": {},
+      "core/navigation": {},
+      "core/home-link": {},
+      "core/navigation-submenu": {},
+      "core/page-list": {
+        "core/page-list-item": {}
+      },
+      "core/pullquote": {},
+      "core/quote": {},
+      "core/rss": {},
+      "core/search": {},
+      "core/separator": {},
+      "core/site-logo": {},
+      "core/site-tagline": {},
+      "core/site-title": {},
+      "core/social-links": {
         "core/social-link": {}
       }
     },
@@ -585,14 +610,7 @@
     "text-and-image-columns-with-icons",
     "text-and-image-columns-with-testimonial",
     "text-call-to-action-buttons",
-    "text-call-to-action",	"header",
-		"footer",
-		"two-columns-with-two-nested-columns",
-		"three-equal-columns-alt",
-		"three-unequal-columns",
-		"three-equal-columns",
-		"mixed-cols-mobile-tablet-and-desktop",
-		"mixed-cols-mobile-and-desktop"
+    "text-call-to-action"
   ],
   "templateParts": [
     {
