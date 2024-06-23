@@ -580,7 +580,14 @@
     "text-and-image-columns-with-icons",
     "text-and-image-columns-with-testimonial",
     "text-call-to-action-buttons",
-    "text-call-to-action"
+    "text-call-to-action",	"header",
+		"footer",
+		"two-columns-with-two-nested-columns",
+		"three-equal-columns-alt",
+		"three-unequal-columns",
+		"three-equal-columns",
+		"mixed-cols-mobile-tablet-and-desktop",
+		"mixed-cols-mobile-and-desktop"
   ],
   "templateParts": [
     {
