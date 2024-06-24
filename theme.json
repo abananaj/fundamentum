@@ -74,9 +74,26 @@
   { "name" : "Background", "slug" : "bg", "color" : "#E0E8FF" },
   { "name" : "Text", "slug" : "txt", "color" : "#020A0A" },
   { "name" : "Background Alt", "slug" : "bgalt", "color" : "#88644B" },
-  { "name" : "Text", "slug" : "txtalt", "color" : "#FFFAF5" },
+  { "name" : "Text Alt", "slug" : "txtalt", "color" : "#FFFAF5" },
   { "name" : "Light", "slug" : "light", "color" : "#FFFAF5" },
-  { "name" : "Dark", "slug" : "dark", "color" : "#020A0A" }]
+  { "name" : "Dark", "slug" : "dark", "color" : "#020A0A" },
+    { "color": "#F2CECF", "name": "beauty bush", "slug": "beauty-bush" },
+    { "color": "#FFB3B4", "name": "sundown", "slug": "sundown" },
+    { "color": "#2B120D", "name": "coffee-bean", "slug": "coffee-bean" },
+    { "color": "#452E23", "name": "bistre", "slug": "bistre" },
+    { "color": "#613B17", "name": "Jambalaya", "slug": "jambalaya" },
+    { "color": "#804C33", "name": "old-copper", "slug": "old-copper" },
+    { "color": "#AB744D", "name": "santa-fe", "slug": "santa-fe" },    
+    { "color": "#C48F74", "name": "antique-brass", "slug": "antique-brass" },
+    { "color": "#F2D9BD", "name": "sidecar", "slug": "sidecar" },
+    { "color": "#FAD3AC", "name": "apricot-peach", "slug": "apricot-peach" },
+    { "color": "#D4AF9D", "name": "eunry", "slug": "eunry" },
+    { "color": "#291D3D", "name": "revolver", "slug": "revolver" },
+    { "color": "#2E2F59", "name": "martinique", "slug": "martinique" },
+    { "color": "#EDBD64", "name": "porsche", "slug": "porsche" },
+    { "color": "#BA624E", "name": "chestnut", "slug": "chestnut" },
+    { "color": "#0E4040", "name": "elephant", "slug": "elephant" }
+  ]
         },
     "custom": {
         "border": { 
