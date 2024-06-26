@@ -513,6 +513,7 @@
     }
   ],
   "patterns": [
+    "basic-header",
     "carousel",
     "cheatsheet",
     "contact-section",
