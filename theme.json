@@ -184,18 +184,13 @@
       "textDecoration": true,
       "textTransform": true,
       "writingMode": true,
-"fontFamilies": [ 
-{ "name" : "mendl sans variable" , "slug" : "mendl-sans-variable" , "fontFamily" : " 'mendl-sans-variable', sans-serif; "},
-{ "name" : "mendl serif variable" , "slug" : "mendl-serif-variable" , "fontFamily" : " 'mendl-serif-variable', sans-serif; "},
-{ "name" : "roc grotesk variable" , "slug" : "roc-grotesk-variable" , "fontFamily" : " 'roc-grotesk-variable', sans-serif; "},
-{ "name":"Headings","slug":"headings","fontFamily":"'mendl-serif-variable',sans-serif;"},
-{ "name": "Headings Alt", "slug": "headingsalt", "fontFamily": "'mendl-sans-variable', sans-serif; " },
-{ "name": "Body", "slug": "body", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
-{ "name": "Display", "slug": "display", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
-{ "name": "Button", "slug": "btn",  "fontFamily": "'roc-grotesk-variable', sans-serif;" }, 
-{ "name": "Nav", "slug": "nav", "fontFamily": "'roc-grotesk-variable', sans-serif;" },
-{ "name": "Caption", "slug": "caption", "fontFamily": "'roc-grotesk-variable', sans-serif;" }
-],
+      "fontFamilies": [
+        {
+          "name": "Antipol Var",
+          "slug": "antipol",
+          "fontFamily": "'antipol-variable'"
+        }
+      ],
       "fontSizes": [
         {
           "slug": "h1",
@@ -314,60 +309,61 @@
         "left": "0"
       }
     },
+    "css": "body{font-family:'antipol-variable',sans-serif;font-variation-settings:var(--wp--custom--font-var-set--body)}",
     "blocks": {
-        "core/buttons": {},
-        "core/button": {},
-        "core/content": {},
-        "core/form": {},
-        "core/paragraph": {},
-        "core/heading": {},
-        "core/group": {},
-        "core/columns": {},
-        "core/form-submission-notification": {},
-        "core/form-submit-button": {},
-        "core/form-input": {},
-        "core/image": {},
-        "core/post-featured-image": {},
-        "core/gallery": {},
-  
-        "core/post-excerpt": {},
-        "core/list": {
-          "spacing": {
-            "margin": {},
-            "padding": {}
-          },
-          "typography": {
-            "fontSize": {},
-            "lineHeight": {}
-          }
+      "core/buttons": {},
+      "core/button": {},
+      "core/content": {},
+      "core/form": {},
+      "core/paragraph": {},
+      "core/heading": {},
+      "core/group": {},
+      "core/columns": {},
+      "core/form-submission-notification": {},
+      "core/form-submit-button": {},
+      "core/form-input": {},
+      "core/image": {},
+      "core/post-featured-image": {},
+      "core/gallery": {},
+
+      "core/post-excerpt": {},
+      "core/list": {
+        "spacing": {
+          "margin": {},
+          "padding": {}
         },
-        "core/list-item": {
-          "spacing": {
-            "margin": {},
-            "padding": {}
-          },
-          "typography": {
-            "fontSize": {},
-            "lineHeight": {}
-          }
-        },
-        "core/post-title": {},
-        "core/navigation": {},
-        "core/home-link": {},
-        "core/navigation-submenu": {},
-        "core/page-list": {},
-        "core/page-list-item": {},
-        "core/pullquote": {},
-        "core/quote": {},
-        "core/rss": {},
-        "core/search": {},
-        "core/separator": {},
-        "core/site-logo": {},
-        "core/site-tagline": {},
-        "core/site-title": {},
-        "core/social-links": {},
-        "core/social-link": {}
+        "typography": {
+          "fontSize": {},
+          "lineHeight": {}
+        }
       },
+      "core/list-item": {
+        "spacing": {
+          "margin": {},
+          "padding": {}
+        },
+        "typography": {
+          "fontSize": {},
+          "lineHeight": {}
+        }
+      },
+      "core/post-title": {},
+      "core/navigation": {},
+      "core/home-link": {},
+      "core/navigation-submenu": {},
+      "core/page-list": {},
+      "core/page-list-item": {},
+      "core/pullquote": {},
+      "core/quote": {},
+      "core/rss": {},
+      "core/search": {},
+      "core/separator": {},
+      "core/site-logo": {},
+      "core/site-tagline": {},
+      "core/site-title": {},
+      "core/social-links": {},
+      "core/social-link": {}
+    },
     "elements": {
       "button": {
         "border": {
@@ -476,112 +472,70 @@
   },
   "customTemplates": [
     {
-      "name": "page-no-title",
-      "title": "Page (Full Width, No Title)",
-      "postTypes": ["page"]
+      "title": "canvas",
+      "name": "single-canvas",
+      "postTypes": ["canvas", "post"]
     },
     {
-      "name": "page-with-sidebar",
-      "title": "Page (With Sidebar)",
-      "postTypes": ["post", "page"]
+      "title": "event",
+      "name": "single-event",
+      "postTypes": ["event", "post"]
     },
     {
-      "name": "canvas",
-      "title": "Canvas",
-      "postTypes": ["page", "post"]
+      "title": "gallery",
+      "name": "single-gallery",
+      "postTypes": ["gallery", "post"]
+    },
+    {
+      "title": "modal",
+      "name": "single-modal",
+      "postTypes": ["popup", "post"]
+    },
+    {
+      "title": "product",
+      "name": "single-product",
+      "postTypes": ["product", "post"]
+    },
+    {
+      "title": "quote",
+      "name": "single-quote",
+      "postTypes": ["quote", "post"]
+    },
+    {
+      "title": "review",
+      "name": "single-review",
+      "postTypes": ["review", "post"]
+    },
+    {
+      "title": "testimonial",
+      "name": "single-testimonial",
+      "postTypes": ["testimonial", "post"]
     }
   ],
   "patterns": [
-    "author-box",
-    "blog-post-columns-single",
-    "blog-post-columns",
-    "card-big-text-call-to-action",
-    "card-blog-post",
-    "card-call-to-action-with-buttons",
-    "card-call-to-action",
-    "card-contact",
-    "card-details",
-    "card-image-and-text",
-    "card-lead-magnet",
-    "card-post-list",
-    "card-pricing-table-dark",
-    "card-pricing-table",
-    "card-social-profile",
-    "card-testimonial",
-    "card-text-and-call-to-action",
-    "card-text-and-details",
-    "card-text-box-with-arrow-accent",
-    "card-text-box-with-arrow-dark",
-    "card-text-box-with-arrow",
     "carousel",
-    "contact-details",
+    "cheatsheet",
+    "contact-section",
     "cover",
-    "faq",
-    "feature-boxes-with-button",
-    "feature-boxes-with-icon-dark",
-    "feature-boxes-with-icon",
-    "features-with-emojis",
     "features",
-    "footer-centered-light",
-    "footer-centered",
-    "footer-light",
-    "footer-minimal-light",
-    "footer-minimal",
-    "footer",
     "footers",
     "grids",
-    "header-dark-with-banner",
-    "header-dark-with-buttons",
-    "header-dark",
-    "header-light-with-banner",
-    "header-light-with-buttons",
-    "header-light",
     "headers",
-    "hero-call-to-action-buttons",
-    "hero-dark",
-    "hero-light",
     "heroes",
-    "image-and-numbered-features",
-    "job-openings",
     "jumbotron",
     "jumbotrons",
-    "numbers-stacked",
-    "numbers",
+    "mixed-cols-mobile-tablet-and-desktop",
+    "mixed-cols-mobile-and-desktop",
     "offcanvas-navbar",
-    "page-about",
-    "page-blog",
-    "page-download",
-    "page-features",
-    "page-home",
-    "page-pricing",
-    "page-profile",
-    "post-loop-grid-custom",
-    "post-loop-grid-default",
-    "post-loop-list",
-    "pricing-table-3-column",
-    "pricing-table-with-testimonials",
-    "pricing-table",
     "pricing",
+    "query-loop-grid",
+    "query-loop-list",
     "sidebars",
     "sign-in",
-    "single-testimonial",
     "sticky-footer-navbar",
-    "team-members",
-    "testimonial-highlight",
-    "testimonials-and-logos",
-    "testimonials-with-big-text",
-    "testimonials-with-social-links",
-    "text-and-image-columns-with-icons",
-    "text-and-image-columns-with-testimonial",
-    "text-call-to-action-buttons",
-    "text-call-to-action",	"header",
-		"footer",
-		"two-columns-with-two-nested-columns",
-		"three-equal-columns-alt",
-		"three-unequal-columns",
-		"three-equal-columns",
-		"mixed-cols-mobile-tablet-and-desktop",
-		"mixed-cols-mobile-and-desktop"
+    "three-equal-columns-alt",
+    "three-unequal-columns",
+    "three-equal-columns"
   ],
   "templateParts": [
     {
