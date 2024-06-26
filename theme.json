@@ -476,23 +476,47 @@
   },
   "customTemplates": [
     {
-      "name": "page-no-title",
-      "title": "Page (Full Width, No Title)",
-      "postTypes": ["page"]
+      "title": "canvas",
+      "name": "single-canvas",
+      "postTypes": ["canvas", "post"]
     },
     {
-      "name": "page-with-sidebar",
-      "title": "Page (With Sidebar)",
-      "postTypes": ["post", "page"]
+      "title": "event",
+      "name": "single-event",
+      "postTypes": ["event", "post"]
     },
     {
-      "name": "canvas",
-      "title": "Canvas",
-      "postTypes": ["page", "post"]
+      "title": "gallery",
+      "name": "single-gallery",
+      "postTypes": ["gallery", "post"]
+    },
+    {
+      "title": "modal",
+      "name": "single-modal",
+      "postTypes": ["popup", "post"]
+    },
+    {
+      "title": "product",
+      "name": "single-product",
+      "postTypes": ["product", "post"]
+    },
+    {
+      "title": "quote",
+      "name": "single-quote",
+      "postTypes": ["quote", "post"]
+    },
+    {
+      "title": "review",
+      "name": "single-review",
+      "postTypes": ["review", "post"]
+    },
+    {
+      "title": "testimonial",
+      "name": "single-testimonial",
+      "postTypes": ["testimonial", "post"]
     }
   ],
   "patterns": [
-    
     "carousel",
     "cheatsheet",
     "contact-section",

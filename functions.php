@@ -27,7 +27,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 15 );
 function add_bs_scripts_styles() {
 // register styles & scripts
 wp_register_style('bootstrap-style', '---bootstrap.min.css');
-wp_register_script('bootstrap-script', get_template_directory_uri(  ) . '/librarium/js/bootstrap.bundle.min.js');
+wp_register_script('bootstrap-script', get_template_directory_uri() . '/librarium/js/bootstrap.bundle.min.js');
 // enqueue styles & scripts
 wp_enqueue_style('bootstrap-style');
 wp_enqueue_script('bootstrap-script');
