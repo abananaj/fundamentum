@@ -1,11 +1,6 @@
-// BOOTSTRAP
-
-import './bootstrap.bundle.min.js';
-
-
 // GSAP
 
-// import { gsap } from "gsap";
+import { gsap } from "gsap";
 // import { useGSAP } from "@gsap/react";
 
 // import { CustomEase } from "gsap/CustomEase";
@@ -39,3 +34,8 @@ import './bootstrap.bundle.min.js';
 
 
 // gsap.registerPlugin(useGSAP, Flip, ScrollTrigger, Observer, ScrollToPlugin, Draggable, MotionPathPlugin, EaselPlugin, PixiPlugin, TextPlugin, DrawSVGPlugin, ScrollSmoother, GSDevTools, InertiaPlugin, MorphSVGPlugin, MotionPathHelper, Physics2DPlugin, PhysicsPropsPlugin, ScrambleTextPlugin, SplitText, RoughEase, ExpoScaleEase, SlowMo, CustomEase, CustomBounce, CustomWiggle);
+
+gsap.set(".demo", {opacity:1}) 
+const tl = gsap.timeline()
+tl.from("ellipse", {scale:0, ease:"power2.inOut", transformOrigin:"50% 50%", duration:1, stagger:0.1})
+  .from("#text path", {scale:0, transformOrigin:"50% 50%", stagger:0.05, ease:"back"}, "-=0.4")
