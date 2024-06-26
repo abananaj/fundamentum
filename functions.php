@@ -26,17 +26,17 @@ if ( !defined( 'ABSPATH' ) ) exit;
 
 // GSAP
 // wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
-function theme_gsap_script(){
-    // // The core GSAP library
-    // wp_enqueue_script( 'gsap-js', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js', array(), false, true );
-    // ScrollTrigger - with gsap.js passed as a dependency
-    // wp_enqueue_script( 'gsap-st', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js', array('gsap-js'), false, true );
-    // Your animation code file - with gsap.js passed as a dependency
-    wp_enqueue_script( 'gsap-js', get_stylesheet_directory_uri() . '/assets/gsap/dist/gsap.min.js', array('gsap-js'), false, true );
-    wp_enqueue_script( 'gsap-js2', get_stylesheet_directory_uri() . '/assets/js/index.js', array('gsap-js'), false, true );
-}
+// function theme_gsap_script(){
+//     // // The core GSAP library
+//     // wp_enqueue_script( 'gsap-js', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js', array(), false, true );
+//     // ScrollTrigger - with gsap.js passed as a dependency
+//     // wp_enqueue_script( 'gsap-st', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js', array('gsap-js'), false, true );
+//     // Your animation code file - with gsap.js passed as a dependency
+//     wp_enqueue_script( 'gsap-js', get_stylesheet_directory_uri() . '/assets/gsap/dist/gsap.min.js', array('gsap-js'), false, true );
+//     wp_enqueue_script( 'gsap-js2', get_stylesheet_directory_uri() . '/assets/js/index.js', array('gsap-js'), false, true );
+// }
 
-add_action( 'wp_enqueue_scripts', 'theme_gsap_script' );
+// add_action( 'wp_enqueue_scripts', 'theme_gsap_script' );
 
 // add bootstrap
 function add_bs_scripts_styles() {
