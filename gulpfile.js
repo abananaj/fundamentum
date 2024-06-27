@@ -1,8 +1,13 @@
 'use strict';
 
-const { src, dest } = require("gulp");
+const { src, dest, watch, parallel } = require("gulp");
 const sass = require('gulp-sass')(require('sass'));
 const webpack = require('webpack-stream');
+
+const filePaths = {
+  js: '',
+  css: ''
+}
 
 function buildStyles(cb) {
   src('./assets/scss/index.scss')
@@ -16,8 +21,11 @@ function buildScripts(cb) {
     .pipe(dest('./assets/dist'));
   cb();
 }
+function watchFiles(cb) {
+  watch(['./assets/scss/**/*.scss', './assets/js/**/*.js'], parallel(buildStyles, buildScripts));
+  cb();
+}
+
 exports.buildStyles = buildStyles;
 exports.buildScripts = buildScripts;
-// exports.watch = function () {
-//   gulp.watch('./sass/**/*.scss', ['sass']);
-// };
+exports.watch = watchFiles;

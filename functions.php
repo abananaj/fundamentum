@@ -3,14 +3,14 @@
 if ( !defined( 'ABSPATH' ) ) exit;
 
 // add bootstrap
-function add_bs_scripts_styles() {
+function add_fundamentum_scripts_styles() {
 // wp_register_style('adobe-fonts', 'https://use.typekit.net/bmw4zvq.css');
-wp_register_style('bootstrap-style', get_template_directory_uri() . '/assets/dist/css/index.css');
+wp_register_style('fundamentum-style', get_template_directory_uri() . '/assets/dist/css/index.css');
  //empty array()for dependencies, version 0.1, place this in footer not head
-wp_register_script('bootstrap-script', get_template_directory_uri() . '/assets/dist/js/index.js', array(), true);
+wp_register_script('fundamentum-script', get_template_directory_uri() . '/assets/dist/js/main.js', array(), true);
 // enqueue styles & scripts
-wp_enqueue_style('bootstrap-style');
-wp_enqueue_script('bootstrap-script');
+wp_enqueue_style('fundamentum-style');
+wp_enqueue_script('fundamentum-script');
 }
 
-add_action( 'wp_enqueue_scripts', 'add_bs_scripts_styles' );
+add_action( 'wp_enqueue_scripts', 'add_fundamentum_scripts_styles' );
