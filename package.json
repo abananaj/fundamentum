@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "json-theme": "node librarium/theme-json/compile.js"
+    "json-theme": "node theme-json/compile.js"
   },
   "keywords": [],
   "author": "",
