@@ -3,7 +3,7 @@
  * Title: Lead Magnet Card
  * Slug: lead-magnet-card
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
- * Categories: ollie/call-to-action, ollie/card
+ * Categories: fundamentum/call-to-action, fundamentum/card
  * Keywords: download, button, cta, email, card
  * Viewport Width: 800
  * Block Types:
@@ -24,20 +24,20 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"66.66%","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Download Ollie</p>
+<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Download fundamentum</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Start using the powerful new WordPress editor with Ollie</h4>
+<h4 class="wp-block-heading">Start using the powerful new WordPress editor with fundamentum</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Start creating beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. </p>
+<p class="has-small-font-size">Start creating beautiful, fully-customizable websites with the new WordPress Site Editor and the fundamentum block theme. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"lemonsqueezy-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 lemonsqueezy-button"><a class="wp-block-button__link wp-element-button" href="https://olliewp.com">Download Ollie for free!</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 lemonsqueezy-button"><a class="wp-block-button__link wp-element-button" href="https://fundamentumwp.com">Download fundamentum for free!</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

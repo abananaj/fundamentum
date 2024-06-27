@@ -3,7 +3,7 @@
  * Title: Details Card
  * Slug: details-card
  * Description:
- * Categories: ollie/card
+ * Categories: fundamentum/card
  * Keywords: card, table, list, info, details
  * Viewport Width: 600
  * Block Types:

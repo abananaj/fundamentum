@@ -57,7 +57,7 @@
                         <!-- /wp:paragraph -->
 
                         <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-                        <p style="font-style:normal;font-weight:600">“Working with Ollie has been a delight from start
+                        <p style="font-style:normal;font-weight:600">“Working with fundamentum has been a delight from start
                             to finish.”</p>
                         <!-- /wp:paragraph -->
 

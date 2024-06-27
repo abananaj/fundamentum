@@ -3,7 +3,7 @@
  * Title: Single Testimonial
  * Slug: single-testimonial
  * Description:
- * Categories: ollie/testimonial, ollie/features, ollie/card
+ * Categories: fundamentum/testimonial, fundamentum/features, fundamentum/card
  * Keywords: testimonial, text, review, rating, avatar, card
  * Viewport Width: 600
  * Block Types:
@@ -14,7 +14,7 @@
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"},"blockGap":"var:preset|spacing|large"}},"backgroundColor":"main","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-main-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-large)"><!-- wp:paragraph {"textColor":"base","fontSize":"large"} -->
-<p class="has-base-color has-text-color has-large-font-size">Wow, I really can't believe how powerful the WordPress Site Editor is combined with Ollie. I don't even need a page builder!</p>
+<p class="has-base-color has-text-color has-large-font-size">Wow, I really can't believe how powerful the WordPress Site Editor is combined with fundamentum. I don't even need a page builder!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"backgroundColor":"secondary","className":"is-style-separator-dotted"} -->

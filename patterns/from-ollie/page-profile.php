@@ -3,7 +3,7 @@
  * Title: Profile Box
  * Slug: profile-box
  * Description: A profile box with an avatar, links to social media, and buttons
- * Categories: ollie/call-to-action, ollie/pages
+ * Categories: fundamentum/call-to-action, fundamentum/pages
  * Keywords: links, linktree, buttons, profile, bio
  * Viewport Width: 1500
  * Block Types:

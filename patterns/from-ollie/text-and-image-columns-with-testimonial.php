@@ -3,7 +3,7 @@
  * Title: Text and Image Columns With Testimonial
  * Slug: text-and-image-columns-with-testimonial
  * Description:
- * Categories: ollie/features, ollie/testimonial
+ * Categories: fundamentum/features, fundamentum/testimonial
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:
@@ -30,11 +30,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Ollie is built for the new WordPress Site Editor</h2>
+<h2 class="wp-block-heading">fundamentum is built for the new WordPress Site Editor</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Did you know you can build a blazing-fast, fully-customizable website with the native WordPress editor now? Download the Ollie block theme to start learning the new WordPress today!</p>
+<p>Did you know you can build a blazing-fast, fully-customizable website with the native WordPress editor now? Download the fundamentum block theme to start learning the new WordPress today!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

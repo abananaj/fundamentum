@@ -3,7 +3,7 @@
  * Title: Image and Text Card
  * Slug: image-and-text-card
  * Description:
- * Categories: ollie/card
+ * Categories: fundamentum/card
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
  * Block Types:

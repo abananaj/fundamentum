@@ -3,7 +3,7 @@
  * Title: Post Loop List
  * Slug: post-loop-list
  * Description:
- * Categories: ollie/posts
+ * Categories: fundamentum/posts
  * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query

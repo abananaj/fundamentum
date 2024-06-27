@@ -3,7 +3,7 @@
  * Title: Text and Call To Action Card
  * Slug: card-text-and-call-to-action
  * Description:
- * Categories: ollie/testimonial, ollie/hero, ollie/card, ollie/call-to-action
+ * Categories: fundamentum/testimonial, fundamentum/hero, fundamentum/card, fundamentum/call-to-action
  * Keywords: download, box, cta, rating, review, testimonial
  * Viewport Width: 1500
  * Block Types:
@@ -18,7 +18,7 @@
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Explore Ollie</p>
+<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Explore fundamentum</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -26,7 +26,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ollie is a block theme for the next generation of WordPress creators. With beautiful patterns and templates built right in, you can get a site launched in record time.</p>
+<p>fundamentum is a block theme for the next generation of WordPress creators. With beautiful patterns and templates built right in, you can get a site launched in record time.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -41,7 +41,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">“Working with Ollie has been a delight from start to finish.”</p>
+<p style="font-style:normal;font-weight:600">“Working with fundamentum has been a delight from start to finish.”</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"secondary","fontSize":"x-small"} -->
@@ -56,7 +56,7 @@
 <div class="wp-block-column is-vertically-aligned-center has-main-background-color has-background"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}},"border":{"radius":"5px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide has-primary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-large)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"base"} -->
-<h4 class="wp-block-heading has-base-color has-text-color">Download Ollie</h4>
+<h4 class="wp-block-heading has-base-color has-text-color">Download fundamentum</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
@@ -71,14 +71,14 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. Anyone can do it! No coding skills required.</p>
+<p class="has-base-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the fundamentum block theme. Anyone can do it! No coding skills required.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","width":100} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://olliewp.com">Download Now</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://fundamentumwp.com">Download Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

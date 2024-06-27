@@ -3,7 +3,7 @@
  * Title: Feature Boxes With Icon Dark
  * Slug: feature-boxes-with-icon-dark
  * Description:
- * Categories: ollie/features
+ * Categories: fundamentum/features
  * Keywords: text, features, columns, icon, cta, button, call to action, box
  * Viewport Width: 1500
  * Block Types:
@@ -66,7 +66,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size">Your website deserves to look pixel-perfect on every device. Ollie ensures your entire design scales down gracefully.</p>
+<p class="has-main-accent-color has-text-color has-small-font-size">Your website deserves to look pixel-perfect on every device. fundamentum ensures your entire design scales down gracefully.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -96,7 +96,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size">We obsess over performance so you don’t have to. Ollie is super lightweight and scores top marks on Google PageSpeed Insights.</p>
+<p class="has-main-accent-color has-text-color has-small-font-size">We obsess over performance so you don’t have to. fundamentum is super lightweight and scores top marks on Google PageSpeed Insights.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -128,7 +128,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size">Creating unique designs has never been easier. Ollie provides dozens of expertly designed patterns for your content.</p>
+<p class="has-main-accent-color has-text-color has-small-font-size">Creating unique designs has never been easier. fundamentum provides dozens of expertly designed patterns for your content.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -188,7 +188,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size">Ollie launches with built-in pattern designs, page templates, style variations and more so you can get your site launched quickly.</p>
+<p class="has-main-accent-color has-text-color has-small-font-size">fundamentum launches with built-in pattern designs, page templates, style variations and more so you can get your site launched quickly.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

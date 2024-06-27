@@ -3,7 +3,7 @@
  * Title: Homepage
  * Slug: page-home
  * Description: A full page design for a Homepage
- * Categories: ollie/pages
+ * Categories: fundamentum/pages
  * Keywords: page, layout, design, template, home
  * Viewport Width: 1500
  * Inserter: true

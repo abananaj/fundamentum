@@ -3,7 +3,7 @@
  * Title: Contact Card
  * Slug: card-contact
  * Description:
- * Categories: ollie/card
+ * Categories: fundamentum/card
  * Keywords: card, contact, social, links, email, company
  * Viewport Width: 600
  * Block Types:
