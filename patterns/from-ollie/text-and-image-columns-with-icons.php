@@ -3,7 +3,7 @@
  * Title: Text and Image Columns With Icons
  * Slug: text-and-image-columns-with-icons
  * Description:
- * Categories: ollie/features
+ * Categories: fundamentum/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:
@@ -26,13 +26,13 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ollie ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes. </p>
+<p>fundamentum ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes. </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">View Ollie Patterns</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">View fundamentum Patterns</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

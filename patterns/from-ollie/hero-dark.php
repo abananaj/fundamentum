@@ -3,7 +3,7 @@
  * Title: Hero Dark
  * Slug: hero-dark
  * Description:
- * Categories: ollie/call-to-action, ollie/hero
+ * Categories: fundamentum/call-to-action, fundamentum/hero
  * Keywords: cta, header, buttons, heading, hero, feature, homepage
  * Viewport Width: 1500
  * Block Types:
@@ -25,16 +25,16 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main-accent"} -->
-<p class="has-text-align-center has-main-accent-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required.</p>
+<p class="has-text-align-center has-main-accent-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the fundamentum block theme. No coding skills required.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"left":"var:preset|spacing|medium","right":"var:preset|spacing|medium","top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)">Download Ollie</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)">Download fundamentum</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"textColor":"base","style":{"color":{"background":"#64648254"},"spacing":{"padding":{"left":"var:preset|spacing|medium","right":"var:preset|spacing|medium","top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}},"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-base-color has-text-color has-background wp-element-button" style="background-color:#64648254;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)">Ollie Features</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-base-color has-text-color has-background wp-element-button" style="background-color:#64648254;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)">fundamentum Features</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

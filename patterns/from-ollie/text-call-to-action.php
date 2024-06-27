@@ -3,7 +3,7 @@
  * Title: Text Call To Action
  * Slug: text-call-to-action
  * Description: A call to action with text and a button.
- * Categories: ollie/call-to-action, ollie/hero
+ * Categories: fundamentum/call-to-action, fundamentum/hero
  * Keywords: cta, call to action, buttons, heading
  * Viewport Width: 1500
  * Block Types:
@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Build your blazing fast website with the power of the WordPress Site Editor and beautiful, pre-made designs from Ollie. No coding skills required.</p>
+<p class="has-text-align-center">Build your blazing fast website with the power of the WordPress Site Editor and beautiful, pre-made designs from fundamentum. No coding skills required.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

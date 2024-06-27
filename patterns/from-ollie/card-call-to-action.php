@@ -3,7 +3,7 @@
  * Title: Call To Action Card
  * Slug: card-call-to-action
  * Description:
- * Categories: ollie/card, ollie/call-to-action
+ * Categories: fundamentum/card, fundamentum/call-to-action
  * Keywords: card, download, box, link, button, cta, call to action
  * Viewport Width: 600
  * Block Types:
@@ -15,7 +15,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"base"} -->
-<h4 class="wp-block-heading has-base-color has-text-color">Download Ollie</h4>
+<h4 class="wp-block-heading has-base-color has-text-color">Download fundamentum</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
@@ -30,14 +30,14 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required. Anyone can do it!</p>
+<p class="has-base-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the fundamentum block theme. No coding skills required. Anyone can do it!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","width":100} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://olliewp.com">Download Now</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://fundamentumwp.com">Download Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

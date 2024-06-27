@@ -12,13 +12,13 @@ const filePaths = {
 function buildStyles(cb) {
   src('./assets/scss/index.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(dest('./assets/dist'));
+    .pipe(dest('./assets/dist/css'));
   cb();
 };
 function buildScripts(cb) {
   src('./assets/js/main.js')
     .pipe(webpack())
-    .pipe(dest('./assets/dist'));
+    .pipe(dest('./assets/dist/js'));
   cb();
 }
 function watchFiles(cb) {

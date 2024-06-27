@@ -15,7 +15,7 @@
 <div class="wp-block-group alignwide"><!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"textColor":"main"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2023 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-small-font-size">© 2023 · Powered by WordPress and <a href="https://fundamentumwp.com">fundamentum</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

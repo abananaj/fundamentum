@@ -3,7 +3,7 @@
  * Title: Text Call To Action Buttons
  * Slug: text-call-to-action-buttons
  * Description: A call to action with text and a button.
- * Categories: ollie/call-to-action, ollie/hero
+ * Categories: fundamentum/call-to-action, fundamentum/hero
  * Keywords: cta, call to action, buttons, heading
  * Viewport Width: 1500
  * Block Types:

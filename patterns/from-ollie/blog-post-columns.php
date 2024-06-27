@@ -3,7 +3,7 @@
  * Title: Blog Post Columns
  * Slug: blog-post-columns
  * Description:
- * Categories: ollie/posts
+ * Categories: fundamentum/posts
  * Keywords: blog, posts, query, pages
  * Viewport Width: 1500
  * Block Types:

@@ -3,7 +3,7 @@
  * Title: Pricing Table - 3 Column
  * Slug: pricing-table-3-column
  * Description:
- * Categories: ollie/pricing
+ * Categories: fundamentum/pricing
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:
@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Ollie patterns. Connect your eCommerce solution and start making bank.</p>
+<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with fundamentum patterns. Connect your eCommerce solution and start making bank.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

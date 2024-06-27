@@ -3,7 +3,7 @@
  * Title: Job Openings
  * Slug: job-openings
  * Description: Show job openings and a call to action button
- * Categories: ollie/features, ollie/call-to-action
+ * Categories: fundamentum/features, fundamentum/call-to-action
  * Keywords: employment, hiring, job, apply
  * Viewport Width: 1500
  * Block Types:

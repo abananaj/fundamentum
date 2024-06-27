@@ -3,7 +3,7 @@
  * Title: Testimonials With Social Links
  * Slug: testimonials-with-social-links
  * Description:
- * Categories: ollie/call-to-action, ollie/testimonial
+ * Categories: fundamentum/call-to-action, fundamentum/testimonial
  * Keywords: testimonial, social, review, rating, quote, columns, links
  * Viewport Width: 1500
  * Block Types:
@@ -46,7 +46,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">I love using WordPress but traditionally it has been hard to design in. Not any more! I can quickly build out page sections or full page designs with Ollie patterns. Saves me so much time!</p>
+<p class="has-medium-font-size">I love using WordPress but traditionally it has been hard to design in. Not any more! I can quickly build out page sections or full page designs with fundamentum patterns. Saves me so much time!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -86,7 +86,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">I create a lot of landing pages, and the Site Editor and Ollie have been huge for this. I can choose from a pre-designed landing page, customize my brand colors, and I’m ready to launch.</p>
+<p class="has-medium-font-size">I create a lot of landing pages, and the Site Editor and fundamentum have been huge for this. I can choose from a pre-designed landing page, customize my brand colors, and I’m ready to launch.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

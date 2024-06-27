@@ -1,14 +1,14 @@
 <?php
 /**
- * This file adds functions to the Ollie WordPress theme.
+ * This file adds functions to the fundamentum WordPress theme.
  *
- * @package ollie
+ * @package fundamentum
  * @author  Mike McAlister
  * @license GNU General Public License v2 or later
- * @link    https://olliewp.com
+ * @link    https://fundamentumwp.com
  */
 
-namespace Ollie;
+namespace fundamentum;
 
 /**
  * Set up theme defaults and register various WordPress features.
@@ -49,54 +49,54 @@ function register_block_styles() {
 
 	$block_styles = array(
 		'core/button'                    => array(
-			'secondary-button' => __( 'Secondary', 'ollie' ),
+			'secondary-button' => __( 'Secondary', 'fundamentum' ),
 		),
 		'core/list'                      => array(
-			'list-check'        => __( 'Check', 'ollie' ),
-			'list-check-circle' => __( 'Check Circle', 'ollie' ),
-			'list-boxed'        => __( 'Boxed', 'ollie' ),
+			'list-check'        => __( 'Check', 'fundamentum' ),
+			'list-check-circle' => __( 'Check Circle', 'fundamentum' ),
+			'list-boxed'        => __( 'Boxed', 'fundamentum' ),
 		),
 		'core/query-pagination-next'     => array(
-			'wp-block-button__link' => __( 'Button', 'ollie' ),
+			'wp-block-button__link' => __( 'Button', 'fundamentum' ),
 		),
 		'core/query-pagination-previous' => array(
-			'wp-block-button__link' => __( 'Button', 'ollie' ),
+			'wp-block-button__link' => __( 'Button', 'fundamentum' ),
 		),
 		'core/code'                      => array(
-			'dark-code' => __( 'Dark', 'ollie' ),
+			'dark-code' => __( 'Dark', 'fundamentum' ),
 		),
 		'core/cover'                     => array(
-			'blur-image-less' => __( 'Blur Image Less', 'ollie' ),
-			'blur-image-more' => __( 'Blur Image More', 'ollie' ),
-			'rounded-cover'   => __( 'Rounded', 'ollie' ),
+			'blur-image-less' => __( 'Blur Image Less', 'fundamentum' ),
+			'blur-image-more' => __( 'Blur Image More', 'fundamentum' ),
+			'rounded-cover'   => __( 'Rounded', 'fundamentum' ),
 		),
 		'core/column'                    => array(
-			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
+			'column-box-shadow' => __( 'Box Shadow', 'fundamentum' ),
 		),
 		'core/post-excerpt'              => array(
-			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'ollie' ),
-			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'ollie' ),
-			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'ollie' ),
+			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'fundamentum' ),
+			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'fundamentum' ),
+			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'fundamentum' ),
 		),
 		'core/group'                     => array(
-			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
+			'column-box-shadow' => __( 'Box Shadow', 'fundamentum' ),
 		),
 		'core/separator'                 => array(
-			'separator-dotted' => __( 'Dotted', 'ollie' ),
-			'separator-thin'   => __( 'Thin', 'ollie' ),
+			'separator-dotted' => __( 'Dotted', 'fundamentum' ),
+			'separator-thin'   => __( 'Thin', 'fundamentum' ),
 		),
 		'core/image'                     => array(
-			'rounded-full' => __( 'Rounded Full', 'ollie' ),
-			'media-boxed'  => __( 'Boxed', 'ollie' ),
+			'rounded-full' => __( 'Rounded Full', 'fundamentum' ),
+			'media-boxed'  => __( 'Boxed', 'fundamentum' ),
 		),
 		'core/preformatted'              => array(
-			'preformatted-dark' => __( 'Dark Style', 'ollie' ),
+			'preformatted-dark' => __( 'Dark Style', 'fundamentum' ),
 		),
 		'core/post-terms'                => array(
-			'term-button' => __( 'Button Style', 'ollie' ),
+			'term-button' => __( 'Button Style', 'fundamentum' ),
 		),
 		'core/video'                     => array(
-			'media-boxed' => __( 'Boxed', 'ollie' ),
+			'media-boxed' => __( 'Boxed', 'fundamentum' ),
 		),
 	);
 
@@ -132,7 +132,7 @@ function enqueue_custom_block_styles() {
 		wp_enqueue_block_style(
 			$block_name,
 			array(
-				'handle' => "ollie-block-{$filename}",
+				'handle' => "fundamentum-block-{$filename}",
 				'src'    => get_theme_file_uri( "assets/styles/{$filename}.css" ),
 				'path'   => get_theme_file_path( "assets/styles/{$filename}.css" ),
 			)
@@ -148,29 +148,29 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 function pattern_categories() {
 
 	$block_pattern_categories = array(
-		'ollie/card'           => array(
-			'label' => __( 'Cards', 'ollie' ),
+		'fundamentum/card'           => array(
+			'label' => __( 'Cards', 'fundamentum' ),
 		),
-		'ollie/call-to-action' => array(
-			'label' => __( 'Call To Action', 'ollie' ),
+		'fundamentum/call-to-action' => array(
+			'label' => __( 'Call To Action', 'fundamentum' ),
 		),
-		'ollie/features'       => array(
-			'label' => __( 'Features', 'ollie' ),
+		'fundamentum/features'       => array(
+			'label' => __( 'Features', 'fundamentum' ),
 		),
-		'ollie/hero'           => array(
-			'label' => __( 'Hero', 'ollie' ),
+		'fundamentum/hero'           => array(
+			'label' => __( 'Hero', 'fundamentum' ),
 		),
-		'ollie/pages'          => array(
-			'label' => __( 'Pages', 'ollie' ),
+		'fundamentum/pages'          => array(
+			'label' => __( 'Pages', 'fundamentum' ),
 		),
-		'ollie/posts'          => array(
-			'label' => __( 'Posts', 'ollie' ),
+		'fundamentum/posts'          => array(
+			'label' => __( 'Posts', 'fundamentum' ),
 		),
-		'ollie/pricing'        => array(
-			'label' => __( 'Pricing', 'ollie' ),
+		'fundamentum/pricing'        => array(
+			'label' => __( 'Pricing', 'fundamentum' ),
 		),
-		'ollie/testimonial'    => array(
-			'label' => __( 'Testimonials', 'ollie' ),
+		'fundamentum/testimonial'    => array(
+			'label' => __( 'Testimonials', 'fundamentum' ),
 		),
 	);
 
@@ -200,8 +200,8 @@ function template_part_areas( array $areas ) {
 	$areas[] = array(
 		'area'        => 'sidebar',
 		'area_tag'    => 'section',
-		'label'       => __( 'Sidebar', 'ollie' ),
-		'description' => __( 'The Sidebar template defines a page area that can be found on the Page (With Sidebar) template.', 'ollie' ),
+		'label'       => __( 'Sidebar', 'fundamentum' ),
+		'description' => __( 'The Sidebar template defines a page area that can be found on the Page (With Sidebar) template.', 'fundamentum' ),
 		'icon'        => 'sidebar',
 	);
 

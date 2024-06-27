@@ -3,7 +3,7 @@
  * Title: Features Page
  * Slug: page-features
  * Description: A full page design for a Features page
- * Categories: ollie/pages, ollie/features
+ * Categories: fundamentum/pages, fundamentum/features
  * Keywords: page, layout, design, template, features
  * Viewport Width: 1500
  * Inserter: true

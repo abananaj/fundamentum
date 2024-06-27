@@ -3,7 +3,7 @@
  * Title: Blog Post Card
  * Slug: blog-post-card
  * Description:
- * Categories: ollie/card, ollie/posts
+ * Categories: fundamentum/card, fundamentum/posts
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
  * Block Types:

@@ -3,7 +3,7 @@
  * Title: Testimonial Card
  * Slug: card-testimonial
  * Description:
- * Categories: ollie/card, ollie/testimonial
+ * Categories: fundamentum/card, fundamentum/testimonial
  * Keywords: testimonial, card, avatar, text, quote, review, rating
  * Viewport Width: 600
  * Block Types:
