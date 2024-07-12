@@ -28,8 +28,7 @@
       "position": {
         "sticky": true},
       "shadow": {
-        "defaultPresets": true,
-        "presets":[]
+        "defaultPresets": true
         },
       "spacing": {
         "blockGap": true,
