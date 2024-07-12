@@ -39,15 +39,16 @@ if ( !defined( 'ABSPATH' ) ) exit;
 // add_action( 'wp_enqueue_scripts', 'theme_gsap_script' );
 
 // add bootstrap
-function add_bs_scripts_styles() {
+function add_theme_scripts_styles() {
 // // register styles & scripts
 // wp_register_style('adobe-fonts', 'https://use.typekit.net/bmw4zvq.css');
-wp_register_style('bootstrap-style', get_stylesheet_directory_uri() . '/assets/css/index.css');
+wp_register_style('theme-styles', get_stylesheet_directory_uri() . '/styles/index.css');
  //empty array()for dependencies, version 0.1, place this in footer not head
-wp_register_script('bootstrap-script', get_stylesheet_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array(), true);
+wp_register_script('theme-scripts', get_stylesheet_directory_uri() . '/scripts/bootstrap.bundle.min.js', array(), true);
+wp_register_script('theme-scripts', get_stylesheet_directory_uri() . '/scripts/index.js', array(), true);
 // enqueue styles & scripts
-wp_enqueue_style('bootstrap-style');
-wp_enqueue_script('bootstrap-script');
+wp_enqueue_style('theme-styles');
+wp_enqueue_script('theme-scripts');
 }
 
 add_action( 'wp_enqueue_scripts', 'add_bs_scripts_styles' );

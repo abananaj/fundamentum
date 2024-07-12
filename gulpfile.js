@@ -10,19 +10,19 @@ const filePaths = {
 }
 
 function buildStyles(cb) {
-  src('./assets/scss/index.scss')
+  src('./index.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(dest('./assets/dist/css'));
+    .pipe(dest('./css'));
   cb();
 };
 function buildScripts(cb) {
-  src('./assets/js/main.js')
+  src('./main.js')
     .pipe(webpack())
-    .pipe(dest('./assets/dist/js'));
+    .pipe(dest('./index.js'));
   cb();
 }
 function watchFiles(cb) {
-  watch(['./assets/scss/**/*.scss', './assets/js/**/*.js'], parallel(buildStyles, buildScripts));
+  watch(['./*.scss', './*.js'], parallel(buildStyles, buildScripts));
   cb();
 }
 
